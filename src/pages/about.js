@@ -1,10 +1,13 @@
 import React from 'react'
-import { Link } from "gatsby"
+import Layout from '../components/Layout'
 
 
 export default function About(){
-    return <div>
+    return (
+    <Layout>
+      <div>
         <h1>About</h1>
-        <Link to="/">Home Page</Link>
-    </div>
+      </div>
+    </Layout>
+    )
 }

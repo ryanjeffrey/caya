@@ -1,9 +1,12 @@
 import React from "react"
-import {Link} from 'gatsby'
+import Layout from '../components/Layout'
 
 export default function Home() {
-  return <div>
+  return (
+  <Layout> <div>
     <h1>CAYA</h1>
-    <Link to ="/about">About</Link>
+    <h2>come as you are</h2>
     </div>
+    </Layout>
+  )
 }
