@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Philosopher:wght@700&family=Prata&display=swap');
 
+
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none; 
+    text-align: center;
+}
+
 h1 {
     font-family: 'Prata', serif;
+    text-align: center;
 }
 
 h4 {
