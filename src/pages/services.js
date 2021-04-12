@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react"
+import Layout from "../components/Layout"
 
-const services = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+const Services = () => {
+  return (
+    <Layout>
+      <h1>Services</h1>
+    </Layout>
+  )
 }
 
-export default services
+export default Services
