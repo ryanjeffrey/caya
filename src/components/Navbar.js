@@ -1,19 +1,24 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Link } from "gatsby"
-import { FaAlignJustify } from 'react-icons/fa'
+import { FiAlignJustify } from 'react-icons/fi'
+import {StaticImage} from 'gatsby-plugin-image'
 
 const Navbar = () => {
+  const [show,setShow] = useState(false)
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/">Home</Link>
-          <button className="nav-btn">
-            <FaAlignJustify />
+          <Link to="/">
+            <StaticImage src="../assets/images/logo-gradient.png" alt="caya logo" />
+          </Link>
+          <button className="nav-btn" onClick={() => setShow(!show)}>
+            <FiAlignJustify />
           </button>
         </div>
 
-        <div className="nav-links show-links">
+        <div className={show ? "nav-links show-links" : "nav-links"}
+        >
           <Link to="/" className="nav-link" activeClassName="active-link">
             Home
           </Link>

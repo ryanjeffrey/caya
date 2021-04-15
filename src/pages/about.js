@@ -9,17 +9,18 @@ const About = () => {
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>About CAYA</h2>
+            <h1>About</h1>
             <p></p>
-            <Link to="/contact" className="btn">
-              Contact
-            </Link>
+            
           </article>
           <StaticImage 
-          src="../assets/images/couch.jpeg" 
+          src="../assets/images/painting.jpeg" 
           alt="couch" 
           placeholder="blurred"
           />
+          <Link to="/contact" className="btn">
+              Contact
+          </Link>
         </section>
       </main>
     </Layout>
