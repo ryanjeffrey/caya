@@ -10,26 +10,43 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <StaticImage src="../assets/images/logo-gradient.png" alt="caya logo" />
+            <StaticImage
+              src="../assets/images/logo-smaller.png"
+              alt="caya logo"
+            />
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <FiAlignJustify />
           </button>
         </div>
 
-        <div className={show ? "nav-links show-links" : "nav-links"}
-        >
-          <Link to="/" className="nav-link" activeClassName="active-link">
+        <div className={show ? "nav-links show-links" : "nav-links"}>
+          <Link
+            to="/"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             Home
           </Link>
-          <Link to="/about" className="nav-link" activeClassName="active-link">
+          <Link
+            to="/about"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             About
           </Link>
-          <Link to="/services" className="nav-link" activeClassName="active-link">
+          <Link
+            to="/services"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             Services
           </Link>
           <div className="nav-link contact-link">
-            <Link to="/contact" className="btn">
+            <Link to="/contact" className="btn" onClick={() => setShow(false)}>
               Contact
             </Link>
           </div>
