@@ -13,11 +13,7 @@ const About = () => {
             <p></p>
             
           </article>
-          <StaticImage 
-          src="../assets/images/painting.jpeg" 
-          alt="painting of black woman" 
-          placeholder="blurred"
-          />
+          
           <div className="bio">
             <h1>Dr. Courtney Skinner</h1>
             <p>This is where the bio will go...</p>
