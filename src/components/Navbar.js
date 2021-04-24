@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Link } from "gatsby"
-import { FiAlignJustify } from 'react-icons/fi'
+import { GoThreeBars } from "react-icons/go"
 import {StaticImage} from 'gatsby-plugin-image'
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
             />
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
-            <FiAlignJustify />
+            <GoThreeBars />
           </button>
         </div>
 
