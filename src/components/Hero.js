@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 
 const ImageBackground = styled(BackgroundImage)`
@@ -17,7 +17,7 @@ const ImageBackground = styled(BackgroundImage)`
 const TextBox = styled("div")`
   display: flex;
   flex-direction: column;
-  height: 45%;
+  height: 50%;
   justify-content: flex-end;
   width: 100%;
 
@@ -52,7 +52,11 @@ const Hero = () => {
   `)
 
   return (
-    <ImageBackground Tag="section" fluid={image.sharp.fluid} fadeIn="soft">
+    <ImageBackground 
+      style={{zIndex:'10'}}
+      Tag="section" 
+      fluid={image.sharp.fluid} 
+      fadeIn="soft">
       <TextBox>
         <p>World-class therapy from the comfort of your home.</p>
       </TextBox>

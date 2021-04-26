@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Philosopher:wght@700&family=Prata&display=swap');
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-
 .description {
   margin: auto;
   padding: 150px;
@@ -37,6 +30,7 @@ h4 {
     font-family: 'Philosopher', sans-serif;
     font-size: 2em;
     text-align: center;
+    text-decoration: none;
 }
 
 h5 {
@@ -51,6 +45,10 @@ footer {
     margin: 10px
 }
 
+a {
+  text-decoration: none;
+}
+
 
 
 /*#########*/
@@ -61,4 +59,19 @@ footer {
 /*#########*/
 /* Hero */
 /*#########*/
+
+
+
+/*#########*/
+/* About Page */
+/*#########*/
+
+.bio-container {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;}
+
+.bio {
+  width: 100%;
+}
 

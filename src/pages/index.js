@@ -12,7 +12,7 @@ const Home = () => {
         <h4>CAYA</h4>
         <h5>come as you are</h5>
         <br/>
-        <p>As black women, we often feel the need to be strong all the time. You don't have to be strong all of the time! </p>
+        <p>You don't have to be strong all of the time.</p>
       </div>
       <div className="wrapper">
         <StaticImage
