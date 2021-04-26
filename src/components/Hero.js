@@ -17,9 +17,8 @@ const ImageBackground = styled(BackgroundImage)`
 const TextBox = styled("div")`
   display: flex;
   flex-direction: column;
-  height: 40%;
+  height: 45%;
   justify-content: flex-end;
-  padding: 0 calc((100vw - 550px) / 2) 2rem;
   width: 100%;
 
   h1 {
@@ -29,7 +28,8 @@ const TextBox = styled("div")`
 
   p,
   a {
-    color: white;
+    color: black;
+    font-size: 2rem;
     margin-top: 0;
   }
 
@@ -41,7 +41,7 @@ const TextBox = styled("div")`
 const Hero = () => {
   const { image } = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "painting.jpeg" }) {
+      image: file(relativePath: { eq: "couch.jpeg" }) {
         sharp: childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp

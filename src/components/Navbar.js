@@ -1,59 +1,28 @@
-import React,{useState} from 'react'
-import { Link } from "gatsby"
-import { GoThreeBars } from "react-icons/go"
-import {StaticImage} from 'gatsby-plugin-image'
-
+import React from "react"
+import styled from "styled-components"
+import { GoThreeBars } from 'react-icons/go'
+import { Link } from 'gatsby'
+import logo from "../assets/images/caya-logo.svg"
 const Navbar = () => {
-  const [show,setShow] = useState(false)
   return (
-    <nav className="navbar">
+    <Wrapper>
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <StaticImage
-              src="../assets/images/logo-smaller.png"
-              alt="caya logo"
-            />
+            <img src={logo} alt="logo" />
           </Link>
-          <button className="nav-btn" onClick={() => setShow(!show)}>
+          <button className="toggle-btn">
             <GoThreeBars />
           </button>
         </div>
-
-        <div className={show ? "nav-links show-links" : "nav-links"}>
-          <Link
-            to="/"
-            className="nav-link"
-            activeClassName="active-link"
-            onClick={() => setShow(false)}
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className="nav-link"
-            activeClassName="active-link"
-            onClick={() => setShow(false)}
-          >
-            About
-          </Link>
-          <Link
-            to="/services"
-            className="nav-link"
-            activeClassName="active-link"
-            onClick={() => setShow(false)}
-          >
-            Services
-          </Link>
-          <div className="nav-link contact-link">
-            <Link to="/contact" className="btn" onClick={() => setShow(false)}>
-              Contact
-            </Link>
-          </div>
-        </div>
+        <ul className="nav-links">ul</ul>
       </div>
-    </nav>
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.nav`
+  position: fixed;
+`
 
 export default Navbar

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Header from './Header'
 import Footer from './Footer'
 
 import "normalize.css"
@@ -8,7 +8,7 @@ import "../assets/css/main.css"
 const Layout = ({children}) => {
     return (
         <div>
-            <Navbar /> 
+            <Header /> 
             {children}
             <Footer />
         </div>
