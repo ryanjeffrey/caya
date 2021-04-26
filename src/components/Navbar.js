@@ -4,15 +4,15 @@ import { Link } from "gatsby"
 
 const Nav = styled.nav`
   padding: 0 20px;
-  height: 9vh;
-  background: #dc8665;
+  min-height: 9vh;
+  background: #eeb462;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `
 
 const Logo = styled.h4`
-  font-size: 30px;
+  font-size: 26px;
   color: #138086;
   display: flex;
   margin: 0;
@@ -50,9 +50,9 @@ const Line = styled.span`
   display: block;
   border-radius: 50px;
   width: 25px;
-  height: 3px;
+  height: 2px;
   margin: 5px;
-  background-color: #fff;
+  background-color: black;
   transition: width 0.4s ease-in-out;
 
   :nth-child(2) {
@@ -64,7 +64,7 @@ const Overlay = styled.div`
   position: relative;
   height: ${props => (props.open ? "91vh" : 0)};
   width: 100vw;
-  background: #dc8665;
+  background: linear-gradient(#eeb462, #dc8665);
   transition: height 0.4s ease-in-out;
 
   @media (min-width: 769px) {
@@ -80,6 +80,7 @@ const OverlayMenu = styled.ul`
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 0;
+  line-height: .1;
 
   li {
     opacity: ${props => (props.open ? 1 : 0)};
@@ -95,12 +96,13 @@ const OverlayMenu = styled.ul`
 
 const NavItem = styled(Link)`
   text-decoration: none;
-  color: white;
+  color: black;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
   transition: all 200ms ease-in;
   position: relative;
+  font-family: "Philosopher", sans-serif;
 
   :after {
     position: absolute;
@@ -116,7 +118,7 @@ const NavItem = styled(Link)`
   }
 
   :hover {
-    color: #138086;
+    color: #534666;
     ::after {
       width: 100%;
     }

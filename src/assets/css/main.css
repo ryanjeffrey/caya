@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Philosopher:wght@700&family=Prata&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Philosopher:wght@700&family=Poppins:wght@600&family=Prata&display=swap');
 .description {
   margin: auto;
   padding: 150px;
@@ -74,4 +73,3 @@ a {
 .bio {
   width: 100%;
 }
-
