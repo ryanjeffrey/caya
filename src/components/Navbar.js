@@ -18,6 +18,11 @@ const Logo = styled.h4`
   margin: 0;
   padding: 1px 6px;
   text-decoration: none;
+
+  :hover {
+    color: white;
+    transition: 0.5s ease-in-out;  
+  }
 `
 
 const Menu = styled.ul`
@@ -102,7 +107,8 @@ const NavItem = styled(Link)`
   margin: 0 1vw;
   transition: all 200ms ease-in;
   position: relative;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
 
   :after {
     position: absolute;

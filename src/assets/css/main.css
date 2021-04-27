@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Philosopher:wght@700&family=Poppins:wght@600&family=Prata&display=swap');
+@import url("//hello.myfonts.net/count/3e200c");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Krona+One&display=swap');
 
 .description {
   margin: auto;
@@ -34,9 +36,9 @@ h4 {
 }
 
 h5 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Professor", cursive;
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 footer {
