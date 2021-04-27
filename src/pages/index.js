@@ -12,15 +12,11 @@ const Home = () => {
         <h4>CAYA</h4>
         <h5>come as you are</h5>
         <br/>
-        <p>You don't have to be strong all of the time.</p>
+        <p>It is possible to change your life at any time.</p>
+        <p>Sometimes we feel like we lack the tools or the hope to see a positive change.</p>
+          <p>Whether you're struggling in the midst of trauma, chronic pain, or depression- you are not alone. And you don't have to be strong all of the time.</p><p> We want to be with you in the darkness.</p><p> All you must do is come as you are.</p>
       </div>
-      <div className="wrapper">
-        <StaticImage
-        src="../assets/images/painting.jpeg"
-        alt="painting of black woman"
-        placeholder="blurred"
-        />
-      </div>
+      <button>Find Out More</button>
     </Layout>
   )
 }
