@@ -18,11 +18,8 @@ const Logo = styled.h4`
   margin: 0;
   padding: 1px 6px;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 
-  :hover {
-    color: white;
-    transition: 0.5s ease-in-out;  
-  }
 `
 
 const Menu = styled.ul`
@@ -142,18 +139,18 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <Link to="/">
+        <Link target="#" to="/">
           <Logo>CAYA</Logo>
         </Link>
         <Menu>
           <Item>
             <NavItem target="#" to="/about">
-              About
+              Who We Are
             </NavItem>
           </Item>
           <Item>
             <NavItem target="#" to="/services">
-              Services
+              What We Do
             </NavItem>
           </Item>
           <Item>
@@ -171,22 +168,30 @@ const Navbar = () => {
       <Overlay open={toggle}>
         <OverlayMenu open={toggle}>
           <Item>
-            <NavItem target="#" to="/">
+            <NavItem target="#" to="/" onClick={() => toggleNav(!toggle)}>
               Home
             </NavItem>
           </Item>
           <Item>
-            <NavItem target="#" to="/about">
-              About
+            <NavItem target="#" to="/about" onClick={() => toggleNav(!toggle)}>
+              Who We Are
             </NavItem>
           </Item>
           <Item>
-            <NavItem target="#" to="/services">
-              Services
+            <NavItem
+              target="#"
+              to="/services"
+              onClick={() => toggleNav(!toggle)}
+            >
+              What We Do
             </NavItem>
           </Item>
           <Item>
-            <NavItem target="#" to="/contact">
+            <NavItem
+              target="#"
+              to="/contact"
+              onClick={() => toggleNav(!toggle)}
+            >
               Contact
             </NavItem>
           </Item>

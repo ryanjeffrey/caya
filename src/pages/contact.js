@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 const Contact = () => {
   return (
     <Layout>
-      <h1>Contact</h1>
+      <h1>Contact Us</h1>
       <form method="post" action="#">
         <label>
           Name

@@ -44,6 +44,7 @@ h5 {
 footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-size: .5em;
     margin: 10px
 }
 
@@ -70,9 +71,37 @@ a {
 
 .bio-container {
   margin: 0 auto;
+  padding-top: 50px;
   width: 70%;
   display: flex;}
 
 .bio {
   width: 100%;
+}
+
+
+
+
+/*#########*/
+/* Services Page */
+/*#########*/
+
+.services-wrapper {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.services-content {
+  display: inline-table;
+}
+
+
+
+
+/*#########*/
+/* Contact Page */
+/*#########*/
+
+form {
+  text-align: center;
 }
