@@ -16,7 +16,7 @@ const Logo = styled.h4`
   color: #138086;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 1px 6px;
   text-decoration: none;
 `
 

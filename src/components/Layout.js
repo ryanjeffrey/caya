@@ -1,17 +1,24 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import {Helmet} from "react-helmet"
 
 import "normalize.css"
 import "../assets/css/main.css"
 
 const Layout = ({children}) => {
     return (
+        <>
+        <Helmet htmlAttributes={{ lang: "en" }}>
+            <meta charSet="utf-8" />
+            <title>CAYA Wellness</title>
+        </Helmet>
         <div>
             <Navbar /> 
             {children}
             <Footer />
         </div>
+        </>
     )
 }
 
