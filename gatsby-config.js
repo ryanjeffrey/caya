@@ -6,6 +6,12 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+  title: 'Caya Wellness',
+  description: "Therapy, Assessment and Coaching site",
+  author: "Ryan Smith",
+  },
+
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
