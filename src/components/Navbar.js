@@ -18,8 +18,11 @@ const Logo = styled.h4`
   margin: 0;
   padding: 1px 6px;
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 
+  :hover {
+    color: #534666;
+  }
 `
 
 const Menu = styled.ul`

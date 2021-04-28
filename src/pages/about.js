@@ -58,9 +58,11 @@ const About = () => {
               </p>
             </div>
           </div>
-        <Link to="/contact" className="btn">
-          Contact
-        </Link>
+          <div className="btn-wrapper">
+            <Link to="/services" className="btn">
+            Learn More
+            </Link>
+          </div>
       </main>
     </Layout>
   )
