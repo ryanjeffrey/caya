@@ -8,17 +8,17 @@ import "../assets/css/main.css"
 
 const Layout = ({children}) => {
     return (
-        <>
-        <Helmet htmlAttributes={{ lang: "en" }}>
-            <meta charSet="utf-8" />
-            <title>CAYA Wellness</title>
-        </Helmet>
-        <div>
-            <Navbar /> 
-            {children}
-            <Footer />
+        <div className="layout-wrapper">
+            <Helmet htmlAttributes={{ lang: "en" }}>
+                <meta charSet="utf-8" />
+                <title>CAYA Wellness</title>
+            </Helmet>
+            <div>
+                <Navbar /> 
+                {children}
+                <Footer />
+            </div>
         </div>
-        </>
     )
 }
 

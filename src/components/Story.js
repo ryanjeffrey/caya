@@ -29,7 +29,7 @@ const TextBox = styled("div")`
   p {
     color: #eeb462;
     font-size: 2rem;
-    line-height: 1.2;
+    line-height: 1.6;
   }
 `
 
@@ -71,7 +71,7 @@ const Story = () => {
           <br />
           <p>
             {" "}
-            All we ask is for you to <em>come as you are.</em>
+            All we ask is that you <em>come as you are.</em>
           </p>
           <Link to="/services" className="btn">
             Find Out More &gt;
