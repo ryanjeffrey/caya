@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { graphql, useStaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 
 const ImageBackground = styled(BackgroundImage)`
@@ -26,15 +26,10 @@ const TextBox = styled("div")`
     font-size: 2.25rem;
   }
 
-  p,
-  a {
+  p {
     color: #eeb462;
     font-size: 2rem;
     line-height: 1.2;
-  }
-
-  a {
-    margin-top: 0.5rem;
   }
 `
 
@@ -78,7 +73,9 @@ const Story = () => {
             {" "}
             All we ask is for you to <em>come as you are.</em>
           </p>
-          <button to="/about">Find Out More &gt;</button>
+          <Link to="/services" className="btn">
+            Find Out More &gt;
+          </Link>
         </div>
       </TextBox>
     </ImageBackground>
