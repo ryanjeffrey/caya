@@ -1,6 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
 import {Link} from 'gatsby'
+import { VscFeedback, VscChecklist } from "react-icons/vsc"
+import { FiTrendingUp } from "react-icons/fi"
+
 
 const Services = () => {
   return (
@@ -8,6 +11,7 @@ const Services = () => {
       <div className="services-wrapper">
         <article className="services-content">
           <h2>Psychotherapy</h2>
+          <VscFeedback size="40px" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -29,6 +33,7 @@ const Services = () => {
         </article>
         <article className="services-content">
           <h2>Assessment</h2>
+          <VscChecklist size="40px" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -50,6 +55,7 @@ const Services = () => {
         </article>
         <article className="services-content">
           <h2>Coaching</h2>
+          <FiTrendingUp size="40px" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -72,7 +78,7 @@ const Services = () => {
       </div>
       <div className="btn-wrapper">
         <Link to="/contact" className="btn">
-          Reach Out
+          Contact &gt;
         </Link>
       </div>
     </Layout>
