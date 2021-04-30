@@ -162,7 +162,7 @@ const Navbar = () => {
             </NavItem>
           </Item>
         </Menu>
-        <NavIcon onClick={() => toggleNav(!toggle)}>
+        <NavIcon onClick={() => toggleNav(!toggle)} aria-label="left align">
           <Line open={toggle} />
           <Line open={toggle} />
           <Line open={toggle} />
