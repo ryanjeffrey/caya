@@ -10,8 +10,8 @@ const Layout = ({children}) => {
     return (
         <div className="layout-wrapper">
             <Helmet htmlAttributes={{ lang: "en" }}>
-                <meta charSet="utf-8"
-                description="Caya Wellness offers telehealth sessions for therapy, assessments, and coaching" />
+                <meta charSet="utf-8" />
+                <meta name="description" content="Caya Wellness offers telehealth sessions for therapy, assessments, and coaching" />
                 <title>CAYA Wellness</title>
             </Helmet>
             <div>
