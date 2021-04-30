@@ -21,11 +21,6 @@ const TextBox = styled("div")`
   justify-content: flex-end;
   width: 100%;
 
-  h1 {
-    text-shadow: 1px 1px 3px #eeddff66;
-    font-size: 2.25rem;
-  }
-
   p,
   a {
     color: black;
@@ -58,7 +53,7 @@ const Hero = () => {
       fluid={image.sharp.fluid} 
       fadeIn="soft">
       <TextBox>
-        <p>World-class therapy from the comfort of your home.</p>
+        <h1>World-class therapy from the comfort of your home.</h1>
       </TextBox>
     </ImageBackground>
   )
