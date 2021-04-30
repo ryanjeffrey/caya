@@ -131,7 +131,7 @@ a {
 
 .bio-container {
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 20px;
   width: 70%;
   display: flex;
   max-width: 768px;
@@ -141,9 +141,18 @@ a {
   width: 100%;
 }
 
+.bio h2 {
+  padding-bottom: 12px;
+}
+
+.bio p {
+  padding-bottom: 24px;
+}
+
 .btn-wrapper {
   padding-bottom: 30px;
 }
+
 
 
 

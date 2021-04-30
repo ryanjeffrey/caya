@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import {Link} from 'gatsby'
+import {StaticImage} from 'gatsby-plugin-image'
 
 const About = () => {
   return (
@@ -8,7 +9,8 @@ const About = () => {
       <main>
         <div className="bio-container">
           <div className="bio">
-            <h1>Dr. Courtney Skinner</h1>
+            <StaticImage src="../assets/images/painting.jpeg" height="120px" placeholder="blurred" />
+            <h2>Dr. Courtney Skinner</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -23,8 +25,8 @@ const About = () => {
               sapien eget mi proin sed libero enim sed. Est sit amet facilisis
               magna etiam tempor orci. Molestie nunc non blandit massa enim nec
               dui. Varius vel pharetra vel turpis nunc eget lorem dolor sed.
-              <br />
-              <br />
+            </p>
+            <p>
               Sapien faucibus et molestie ac feugiat sed lectus. Vel fringilla
               est ullamcorper eget. Risus feugiat in ante metus dictum.
               Consectetur adipiscing elit duis tristique sollicitudin nibh sit.
@@ -36,8 +38,8 @@ const About = () => {
               tempus quam pellentesque nec nam aliquam sem. Ultrices vitae
               auctor eu augue ut lectus arcu bibendum at. Non sodales neque
               sodales ut etiam sit amet.
-              <br />
-              <br />
+            </p>
+            <p>
               Placerat vestibulum lectus mauris ultrices eros in cursus.
               Sollicitudin nibh sit amet commodo nulla facilisi nullam.
               Consequat ac felis donec et. Pellentesque sit amet porttitor eget
@@ -52,7 +54,6 @@ const About = () => {
               at ultrices mi tempus. Sem nulla pharetra diam sit amet nisl
               suscipit adipiscing. Lacus viverra vitae congue eu. Aliquet nec
               ullamcorper sit amet risus nullam eget.
-              <br />
             </p>
           </div>
         </div>
