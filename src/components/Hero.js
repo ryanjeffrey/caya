@@ -1,61 +1,39 @@
 import React from "react"
-import styled from "styled-components"
-import { graphql, useStaticQuery } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
-
-const ImageBackground = styled(BackgroundImage)`
-  background-position: top 20% center;
-  background-size: cover;
-  height: 100vh;
-
-  /* override the default margin for sibling elements  */
-  + * {
-    margin-top: 0;
-  }
-`
-
-const TextBox = styled("div")`
-  display: flex;
-  flex-direction: column;
-  height: 50%;
-  justify-content: flex-end;
-  width: 100%;
-
-  p,
-  a {
-    color: black;
-    font-size: 2rem;
-    margin-top: 0;
-  }
-
-  a {
-    margin-top: 0.5rem;
-  }
-`
+import { StaticImage } from "gatsby-plugin-image"
 
 const Hero = () => {
-  const { image } = useStaticQuery(graphql`
-    query {
-      image: file(relativePath: { eq: "couch.jpeg" }) {
-        sharp: childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
-
   return (
-    <ImageBackground 
-      style={{zIndex:'10'}}
-      Tag="section" 
-      fluid={image.sharp.fluid} 
-      fadeIn="soft">
-      <TextBox>
+    <div style={{ display: "grid" }}>
+      {/* You can use a GatsbyImage component if the image is dynamic */}
+      <StaticImage
+        className="hero-img"
+        style={{
+          gridArea: "1/1",
+        }}
+        layout="fullWidth"
+        // This is a presentational image, so the alt should be an empty string
+        alt=""
+        src={
+          "../assets/images/couch.jpeg"
+        }
+        placeholder="blurred"
+        formats={["auto", "webp", "avif"]}
+      />
+      <div
+        style={{
+          // By using the same grid area for both, they are stacked on top of each other
+          gridArea: "1/1",
+          position: "relative",
+          // This centers the other elements inside the hero component
+          placeItems: "center",
+          display: "grid",
+          bottom: "10%",
+        }}
+      >
+        {/* Any content here will be centered in the component */}
         <h1>World-class therapy from the comfort of your home.</h1>
-      </TextBox>
-    </ImageBackground>
+      </div>
+    </div>
   )
 }
 

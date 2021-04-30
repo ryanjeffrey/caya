@@ -14,6 +14,7 @@ h1 {
     font-family: 'Prata', serif;
     text-align: center;
     font-weight: 400;
+    padding: 10px;
 }
 
 h4 {
@@ -104,7 +105,9 @@ a {
   font-size: 30pt;
   padding: 50px;
 }
-
+ .hero-img {
+   height: 90vh;
+ }
 
 .sun-icon {
   padding-top: 50px;
