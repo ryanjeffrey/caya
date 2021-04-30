@@ -15,7 +15,7 @@ const Story = () => {
         // This is a presentational image, so the alt should be an empty string
         alt=""
         src={"../assets/images/wave.jpg"}
-        placeholder="blurred"
+        placeholder="tracedSVG"
         formats={["auto", "webp", "avif"]}
       />
       <div
@@ -30,7 +30,9 @@ const Story = () => {
         }}
       >
         {/* Any content here will be centered in the component */}
-        <p>It is possible to change your life at any time.</p>
+        <p>
+          It is possible to change your life at any time.
+        </p>
         <p>
           Sometimes we feel like we lack the tools or the hope to see a positive
           change.

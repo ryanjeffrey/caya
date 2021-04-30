@@ -111,6 +111,8 @@ a {
 
 .story-text {
   padding-bottom: 40px;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
  .hero-img {
@@ -131,7 +133,9 @@ a {
   margin: 0 auto;
   padding-top: 50px;
   width: 70%;
-  display: flex;}
+  display: flex;
+  max-width: 768px;
+}
 
 .bio {
   width: 100%;
@@ -150,6 +154,7 @@ a {
 .services-wrapper {
   margin: 0 auto;
   padding: 20px 40px;
+  max-width: 768px;
 }
 
 .services-content {
@@ -168,3 +173,50 @@ a {
 /*#########*/
 /* Contact Page */
 /*#########*/
+
+.contact-section {
+  padding: 24px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+textarea {
+  background: #f5d8ae;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  font-size: 1.1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: 1px solid #eeb462;
+}
+textarea {
+  resize: none;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 2rem;
+  color: #f5d8ae;
+  border: none;
+  background-color: #138086;
+  border-bottom: 2px solid #cd7672;
+  border-radius: 3em;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color ease-in 200ms;
+}
+
+button[type="submit"]:hover {
+  background-color: #534666;
+}
+
+button[type="submit"]:focus {
+  outline: 1px solid #534666;
+}
