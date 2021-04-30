@@ -101,10 +101,18 @@ a {
   font-size: 1.5em;
 }
 
-.description p {
+.story-text p {
   font-size: 30pt;
-  padding: 50px;
+  padding: 80px 30px;
+  color: #eeb462;
+  font-size: 2rem;
+  line-height: 2;
 }
+
+.story-text {
+  padding-bottom: 40px;
+}
+
  .hero-img {
    height: 90vh;
  }
