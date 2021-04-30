@@ -15,7 +15,7 @@ const Story = () => {
         // This is a presentational image, so the alt should be an empty string
         alt=""
         src={"../assets/images/wave.jpg"}
-        placeholder="tracedSVG"
+        placeholder="blurred"
         formats={["auto", "webp", "avif"]}
       />
       <div

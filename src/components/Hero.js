@@ -27,7 +27,7 @@ const Hero = () => {
           // This centers the other elements inside the hero component
           placeItems: "center",
           display: "grid",
-          bottom: "10%",
+          paddingBottom: "128px",
         }}
       >
         {/* Any content here will be centered in the component */}
