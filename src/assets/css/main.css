@@ -147,8 +147,8 @@ a {
 }
 
 .bio h3 {
-  font-family: 'Krona One', sans-serif;  
-  font-size: 1.4em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8em;
 }
 
 .bio p {
@@ -159,6 +159,10 @@ a {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   text-align: left;
+}
+
+.areas {
+  padding: 10px;
 }
 
 .btn-wrapper {

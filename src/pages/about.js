@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import {Link} from 'gatsby'
 import {StaticImage} from 'gatsby-plugin-image'
+import { FaHandHoldingHeart } from "react-icons/fa"
 
 const About = () => {
   return (
@@ -9,11 +10,12 @@ const About = () => {
       <main>
         <div className="bio-container">
           <div className="bio">
-            <StaticImage
-              src="../assets/images/painting.jpeg"
-              height="120px"
-              placeholder="blurred"
-            />
+              <StaticImage
+                src="../assets/images/headshot.jpeg"
+                alt=""
+                placeholder="blurred"
+                formats={["auto", "webp", "avif"]}
+              />
             <h2>Dr. Courtney Cornick Skinner</h2>
             <p>
               <strong>Dr. Courtney Cornick Skinner</strong> is a licensed
@@ -37,54 +39,58 @@ const About = () => {
               workplace, and best practices in psychological assessment via
               telemedicine platforms.
             </p>
-            <h3>Areas of Specialization:</h3>
-            <ul>
-              <li>
-                Health Psychology
-                <ul>
-                  <li>Chronic Pain</li>
-                  <li>Chronic Medical Conditions</li>
-                  <li>Women's Health</li>
-                  <li>Behavioral Health</li>
-                  <li>Obesity &#38; Body Positive Psychotherapy</li>
-                </ul>
-              </li>
-              <li>
-                Disability
-                <ul>
-                  <li>Multiple Sclerosis</li>
-                  <li>Spinal Cord Injury</li>
-                </ul>
-              </li>
-              <li>Depression</li>
-              <li>Holistic Wellness</li>
-              <li>Anxiety</li>
-              <li>Trauma</li>
-              <li>Military Personnel/Veterans</li>
-              <li>Spirituality &#38; Religion</li>
-              <li>Relationships</li>
-              <li>Race/Multicultural Approaches to Psychotherapy</li>
-              <li>Clinical Hypnosis</li>
-              <li>Mindfulness/Meditation</li>
-              <li>Coaching</li>
-              <li>
-                Assessment
-                <ul>
-                  <li>Organ Transplant</li>
-                  <li>Bone Marrow and Stem Cell Transplant</li>
-                  <li>
-                    Neuromodulation
-                    <ul>
-                      <li>Spinal Cord Stimulator</li>
-                      <li>Intrathecal Pain Pump</li>
-                      <li>Peripheral Nerve Stimulator</li>
-                    </ul>
-                  </li>
-                  <li>Bariatric Surgery</li>
-                  <li>Cosmetic Surgery</li>
-                </ul>
-              </li>
-            </ul>
+            <div className="areas">
+              <FaHandHoldingHeart
+              size="50px"/>
+              <h3>Areas of Specialization:</h3>
+              <ul>
+                <li>
+                  Health Psychology
+                  <ul>
+                    <li>Chronic Pain</li>
+                    <li>Chronic Medical Conditions</li>
+                    <li>Women's Health</li>
+                    <li>Behavioral Health</li>
+                    <li>Obesity &#38; Body Positive Psychotherapy</li>
+                  </ul>
+                </li>
+                <li>
+                  Disability
+                  <ul>
+                    <li>Multiple Sclerosis</li>
+                    <li>Spinal Cord Injury</li>
+                  </ul>
+                </li>
+                <li>Depression</li>
+                <li>Holistic Wellness</li>
+                <li>Anxiety</li>
+                <li>Trauma</li>
+                <li>Military Personnel/Veterans</li>
+                <li>Spirituality &#38; Religion</li>
+                <li>Relationships</li>
+                <li>Race/Multicultural Approaches to Psychotherapy</li>
+                <li>Clinical Hypnosis</li>
+                <li>Mindfulness/Meditation</li>
+                <li>Coaching</li>
+                <li>
+                  Assessment
+                  <ul>
+                    <li>Organ Transplant</li>
+                    <li>Bone Marrow and Stem Cell Transplant</li>
+                    <li>
+                      Neuromodulation
+                      <ul>
+                        <li>Spinal Cord Stimulator</li>
+                        <li>Intrathecal Pain Pump</li>
+                        <li>Peripheral Nerve Stimulator</li>
+                      </ul>
+                    </li>
+                    <li>Bariatric Surgery</li>
+                    <li>Cosmetic Surgery</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="btn-wrapper">
