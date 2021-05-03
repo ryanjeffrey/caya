@@ -9,52 +9,82 @@ const About = () => {
       <main>
         <div className="bio-container">
           <div className="bio">
-            <StaticImage src="../assets/images/painting.jpeg" height="120px" placeholder="blurred" />
-            <h2>Dr. Courtney Skinner</h2>
+            <StaticImage
+              src="../assets/images/painting.jpeg"
+              height="120px"
+              placeholder="blurred"
+            />
+            <h2>Dr. Courtney Cornick Skinner</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Pharetra vel turpis nunc eget lorem. Montes nascetur ridiculus mus
-              mauris vitae ultricies. Volutpat blandit aliquam etiam erat. Vel
-              fringilla est ullamcorper eget. At erat pellentesque adipiscing
-              commodo elit at imperdiet dui. Ipsum suspendisse ultrices gravida
-              dictum fusce ut placerat. Pulvinar elementum integer enim neque.
-              Quisque non tellus orci ac auctor augue mauris augue neque. Ac
-              feugiat sed lectus vestibulum mattis ullamcorper velit sed
-              ullamcorper. Lectus nulla at volutpat diam ut venenatis. Dui
-              sapien eget mi proin sed libero enim sed. Est sit amet facilisis
-              magna etiam tempor orci. Molestie nunc non blandit massa enim nec
-              dui. Varius vel pharetra vel turpis nunc eget lorem dolor sed.
+              <strong>Dr. Courtney Cornick Skinner</strong> is a licensed
+              psychologist in the states of Illinois, Wisconsin, Indiana, and
+              Florida. Dr. Skinner completed her PhD in Counseling Psychology at
+              the University of Iowa, followed by an APA-accredited internship
+              at the Milwaukee VA Medical Center and an APA-accredited
+              postdoctoral fellowship in medical rehabilitation psychology at
+              Hines VA Medical Center in the Chicagoland area. Dr. Skinner
+              received specialized training and instruction in health psychology
+              and completed her doctoral dissertation on clinical hypnosis and
+              chronic pain. Dr. Skinner has experience providing mental health
+              services in private hospitals, Department of Veterans Affairs, and
+              private practice.
             </p>
             <p>
-              Sapien faucibus et molestie ac feugiat sed lectus. Vel fringilla
-              est ullamcorper eget. Risus feugiat in ante metus dictum.
-              Consectetur adipiscing elit duis tristique sollicitudin nibh sit.
-              Libero id faucibus nisl tincidunt eget. Gravida in fermentum et
-              sollicitudin ac. Mauris augue neque gravida in fermentum. Quis
-              auctor elit sed vulputate mi sit. Id aliquet risus feugiat in.
-              Quam id leo in vitae turpis. Egestas pretium aenean pharetra magna
-              ac. Dolor morbi non arcu risus quis varius quam. Neque vitae
-              tempus quam pellentesque nec nam aliquam sem. Ultrices vitae
-              auctor eu augue ut lectus arcu bibendum at. Non sodales neque
-              sodales ut etiam sit amet.
+              Dr. Skinner has published research and conducted trainings in
+              various settings around the country. Dr. Skinner serves as a
+              consultant related to hiring and retention of diverse staff,
+              intergroup relations, improving employee awareness within the
+              workplace, and best practices in psychological assessment via
+              telemedicine platforms.
             </p>
-            <p>
-              Placerat vestibulum lectus mauris ultrices eros in cursus.
-              Sollicitudin nibh sit amet commodo nulla facilisi nullam.
-              Consequat ac felis donec et. Pellentesque sit amet porttitor eget
-              dolor morbi. Aliquet bibendum enim facilisis gravida neque. Nisl
-              nisi scelerisque eu ultrices vitae auctor eu augue ut. Dignissim
-              sodales ut eu sem integer vitae justo. Bibendum ut tristique et
-              egestas quis ipsum suspendisse. Viverra orci sagittis eu volutpat
-              odio facilisis mauris sit amet. Augue mauris augue neque gravida.
-              Sed viverra ipsum nunc aliquet bibendum. Consectetur adipiscing
-              elit duis tristique sollicitudin nibh. Orci ac auctor augue mauris
-              augue neque gravida. Cursus turpis massa tincidunt dui ut. Risus
-              at ultrices mi tempus. Sem nulla pharetra diam sit amet nisl
-              suscipit adipiscing. Lacus viverra vitae congue eu. Aliquet nec
-              ullamcorper sit amet risus nullam eget.
-            </p>
+            <h3>Areas of Specialization:</h3>
+            <ul>
+              <li>
+                Health Psychology
+                <ul>
+                  <li>Chronic Pain</li>
+                  <li>Chronic Medical Conditions</li>
+                  <li>Women's Health</li>
+                  <li>Behavioral Health</li>
+                  <li>Obesity &#38; Body Positive Psychotherapy</li>
+                </ul>
+              </li>
+              <li>
+                Disability
+                <ul>
+                  <li>Multiple Sclerosis</li>
+                  <li>Spinal Cord Injury</li>
+                </ul>
+              </li>
+              <li>Depression</li>
+              <li>Holistic Wellness</li>
+              <li>Anxiety</li>
+              <li>Trauma</li>
+              <li>Military Personnel/Veterans</li>
+              <li>Spirituality &#38; Religion</li>
+              <li>Relationships</li>
+              <li>Race/Multicultural Approaches to Psychotherapy</li>
+              <li>Clinical Hypnosis</li>
+              <li>Mindfulness/Meditation</li>
+              <li>Coaching</li>
+              <li>
+                Assessment
+                <ul>
+                  <li>Organ Transplant</li>
+                  <li>Bone Marrow and Stem Cell Transplant</li>
+                  <li>
+                    Neuromodulation
+                    <ul>
+                      <li>Spinal Cord Stimulator</li>
+                      <li>Intrathecal Pain Pump</li>
+                      <li>Peripheral Nerve Stimulator</li>
+                    </ul>
+                  </li>
+                  <li>Bariatric Surgery</li>
+                  <li>Cosmetic Surgery</li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="btn-wrapper">
