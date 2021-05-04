@@ -47,7 +47,7 @@ const Story = () => {
           All we ask is that you <em>come as you are.</em>
         </p>
         <Link to="/about" className="btn">
-          Learn More &gt;
+          Learn More
         </Link>
       </div>
     </div>

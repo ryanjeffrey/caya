@@ -95,7 +95,7 @@ const About = () => {
         </div>
         <div className="btn-wrapper">
           <Link to="/services" className="btn">
-            Learn More &gt;
+            Learn More
           </Link>
         </div>
       </main>

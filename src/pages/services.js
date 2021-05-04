@@ -78,7 +78,7 @@ const Services = () => {
       </div>
       <div className="btn-wrapper">
         <Link to="/contact" className="btn">
-          Contact &gt;
+          Contact
         </Link>
       </div>
     </Layout>

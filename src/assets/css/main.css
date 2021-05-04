@@ -203,6 +203,17 @@ a {
   padding: 24px;
   max-width: 500px;
   margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.contact-section h2 {
+  margin: 0;
+  font-family: 'Prata', serif;
+}
+
+.contact-button {
+  padding: 14px;
 }
 
 input[type="text"],
@@ -244,4 +255,10 @@ button[type="submit"]:hover {
 
 button[type="submit"]:focus {
   outline: 1px solid #534666;
+}
+
+.disclaimer p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: .8em;
 }
