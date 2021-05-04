@@ -1,12 +1,17 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from "../components/Layout";
+import AccordionMenu from "../components/AccordionMenu"
 
-const Sandbox = () => {
+function Sandbox() {
   return (
     <Layout>
-      
+      <AccordionMenu />
     </Layout>
-  )
+  );
 }
 
 export default Sandbox
+
+
+
+

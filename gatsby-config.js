@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
   title: 'Caya Wellness',
   description: "Therapy, Assessment and Coaching site",
-  author: "Ryan Smith",
+  author: "Ryan Jeffrey Smith",
   },
 
   plugins: [
