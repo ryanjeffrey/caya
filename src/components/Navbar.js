@@ -79,13 +79,13 @@ const Overlay = styled.div`
 
 const OverlayMenu = styled.ul`
   list-style: none;
-  z-index: 10;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 0;
-  line-height: .1;
+  line-height: 0.1;
+
 
   li {
     opacity: ${props => (props.open ? 1 : 0)};

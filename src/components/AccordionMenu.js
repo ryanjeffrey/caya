@@ -27,7 +27,7 @@ function AccordionMenu() {
       />
       <Accordion
         title="Assessment"
-        content="<p>Pre-surgical psychological assessment/clearance is often a requirement prior to specific surgeries and procedures. CAYA Wellness offers high-quality, compassionate, and straightforward presurgical assessments for patients seeking bariatric surgery, spinal cord stimulators, intrathecal pain pumps, and other surgical procedures.</p>
+        content="<p>Pre-surgical psychological assessment/clearance is often a requirement prior to specific surgeries and procedures. CAYA Wellness offers high-quality, compassionate, and straightforward pre-surgical assessments for patients seeking bariatric surgery, spinal cord stimulators, intrathecal pain pumps, and other surgical procedures.</p>
         </br>
         <span><h3>Fees*:</h3>
         <ul>

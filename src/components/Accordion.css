@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 
+
 /* Style the accordion section */
 .accordion__section {
   display: flex;
@@ -9,7 +10,7 @@
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eeb462;
-  color: #534666;
+  color: black;
   cursor: pointer;
   padding: 26px;
   display: flex;
@@ -27,7 +28,7 @@
 
 /* Style the accordion content title */
 .accordion__title {
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: left;
 }
 
