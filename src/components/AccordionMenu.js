@@ -1,7 +1,5 @@
 import React from "react"
 import Accordion from "../components/Accordion"
-import { VscFeedback, VscChecklist } from "react-icons/vsc"
-import { FiTrendingUp } from "react-icons/fi"
 
 function AccordionMenu() {
   return (
