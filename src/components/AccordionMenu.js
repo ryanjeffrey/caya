@@ -56,10 +56,9 @@ function AccordionMenu() {
         title="Modern Love Coaching"
         content="<p>CAYA Wellness offers coaching services for online daters that are in the process of finding lasting love. Techniques utilized in these services incorporate scientific research to help daters engage in best practices when it comes to dating. In addition, services help daters get clear on the traits of their ideal partner, navigate online dating platforms, and learn about common pitfalls and barriers to successful dating.</p>
         </br>
-        <p>
-        **Differences between coaching and psychotherapy: While overlaps exist between coaching and psychotherapy, coaching and psychotherapy are two distinct practices. Psychotherapy focuses on the assessment and treatment of mental health disorders. Coaching is a future-focused approach that centers on achieving a particular goal. Coaching gives mentally healthy individuals tools to work towards their desired goal and is not a substitute for psychotherapy.</p>
+        <span><h3>**Differences between coaching and psychotherapy:</h3><p>While overlaps exist between coaching and psychotherapy, coaching and psychotherapy are two distinct practices. Psychotherapy focuses on the assessment and treatment of mental health disorders. Coaching is a future-focused approach that centers on achieving a particular goal. Coaching gives mentally healthy individuals tools to work towards their desired goal and is not a substitute for psychotherapy.</p>
         </br>
-        <span><h3>Fee:</h3>
+        <h3>Fee:</h3>
         <p>$150/per 60-minute meeting</p>
         </>"
       />
