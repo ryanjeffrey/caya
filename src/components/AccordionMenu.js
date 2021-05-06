@@ -6,9 +6,9 @@ function AccordionMenu() {
     <div className="App">
       <Accordion
         title="Psychotherapy"
-        content="<p>Psychotherapy helps individuals manage a wide range of mental health-related concerns and diagnoses. CAYA wellness offers evidence-based, effective treatments for mental health conditions, coping with chronic illness, and healing past traumas. All psychotherapy patients will receive an initial psychological assessment for diagnosis and treatment planning.</p>
+        content="<span><p>Psychotherapy helps individuals manage a wide range of mental health-related concerns and diagnoses. CAYA Wellness offers evidence-based, effective treatments for mental health conditions, coping with chronic illness, and healing past traumas. All psychotherapy patients will receive an initial psychological assessment for diagnosis and treatment planning.</p>
         </br>
-        <span><h3>Treatments Offered:</h3>
+        <h3>Treatments Offered:</h3>
         <ul>
             <li>Symptom-Focused Hypnosis</li>
             <li>Cognitive Behavioral Therapy (CBT)</li>
@@ -26,10 +26,20 @@ function AccordionMenu() {
         </span>"
       />
       <Accordion
-        title="Assessment"
-        content="<p>Pre-surgical psychological assessment/clearance is often a requirement prior to specific surgeries and procedures. CAYA Wellness offers high-quality, compassionate, and straightforward pre-surgical assessments for patients seeking bariatric surgery, spinal cord stimulators, intrathecal pain pumps, and other surgical procedures.</p>
+        title="Coaching"
+        content="<span><p>CAYA Wellness offers coaching services for online daters that are in the process of finding lasting love. Techniques utilized in these services incorporate scientific research to help daters engage in best practices when it comes to dating. In addition, services help daters get clear on the traits of their ideal partner, navigate online dating platforms, and learn about common pitfalls and barriers to successful dating.</p>
         </br>
-        <span><h3>Fees*:</h3>
+        <h3>**Differences between coaching and psychotherapy:</h3><p>While overlaps exist between coaching and psychotherapy, coaching and psychotherapy are two distinct practices. Psychotherapy focuses on the assessment and treatment of mental health disorders. Coaching is a future-focused approach that centers on achieving a particular goal. Coaching gives mentally healthy individuals tools to work towards their desired goal and is not a substitute for psychotherapy.</p>
+        </br>
+        <h3>Fee:</h3>
+        <p>$150/per 60-minute meeting</p>
+        </>"
+      />
+      <Accordion
+        title="Assessment"
+        content="<span><p>Pre-surgical psychological assessment/clearance is often a requirement prior to specific surgeries and procedures. CAYA Wellness offers high-quality, compassionate, and straightforward pre-surgical assessments for patients seeking bariatric surgery, spinal cord stimulators, intrathecal pain pumps, and other surgical procedures.</p>
+        </br>
+        <h3>Fees*:</h3>
         <ul>
             <li>Bariatric Assessment: $500</li>
             <li>Spinal Cord Stimulator: $500</li>
@@ -45,26 +55,15 @@ function AccordionMenu() {
       <Accordion
         title="Consultation"
         content="
-        <p>CAYA Wellness provides a wide range of consultation services to large corporations and start-ups. Services include diversity and inclusion seminars, company wellness trainings, corporate assessment and intergroup relations.</p>
+        <span><p>CAYA Wellness provides a wide range of consultation services to large corporations and start-ups. Services include diversity and inclusion seminars, company wellness trainings, corporate assessment and intergroup relations.</p>
         </br>
-        <span>
         <h3>Fee:</h3>
         <p>$185/per hour</p>
         </span>"
       />
       <Accordion
-        title="Coaching"
-        content="<p>CAYA Wellness offers coaching services for online daters that are in the process of finding lasting love. Techniques utilized in these services incorporate scientific research to help daters engage in best practices when it comes to dating. In addition, services help daters get clear on the traits of their ideal partner, navigate online dating platforms, and learn about common pitfalls and barriers to successful dating.</p>
-        </br>
-        <span><h3>**Differences between coaching and psychotherapy:</h3><p>While overlaps exist between coaching and psychotherapy, coaching and psychotherapy are two distinct practices. Psychotherapy focuses on the assessment and treatment of mental health disorders. Coaching is a future-focused approach that centers on achieving a particular goal. Coaching gives mentally healthy individuals tools to work towards their desired goal and is not a substitute for psychotherapy.</p>
-        </br>
-        <h3>Fee:</h3>
-        <p>$150/per 60-minute meeting</p>
-        </>"
-      />
-      <Accordion
         title="Speaking &#38; Workshops"
-        content="<p>Please Contact For Rates</p>
+        content="<span><p>Please Contact For Rates</p></span>
         "
       />
     </div>
