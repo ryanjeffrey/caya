@@ -10,12 +10,13 @@ const About = () => {
       <main>
         <div className="bio-container">
           <div className="bio">
+            <div className="bio-headshot">
               <StaticImage
                 src="../assets/images/headshot.jpeg"
                 alt=""
                 placeholder="blurred"
                 formats={["auto", "webp", "avif"]}
-              />
+              /></div>
             <h2>Dr. Courtney Cornick Skinner</h2>
             <p>
               <strong>Dr. Courtney Cornick Skinner</strong> is a licensed

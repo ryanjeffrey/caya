@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans&family=Krona+One&family=Philosopher:wght@700&family=Poppins:wght@300&family=Prata&display=swap');
 @import url("//hello.myfonts.net/count/3e200c");
 
-
+* {
+  box-sizing: border-box;
+}
 
 body {
     font-family: 'Prata', serif;
@@ -29,18 +31,18 @@ h5 {
     font-size: 2em;
 }
 
-footer {
+.footer-wrapper {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: .5em;
     margin: 0 auto;
-    padding-bottom: 25px;
+    padding: 20px;
 }
 
 .footer-img {
-  height: 32px;
-  padding: 20px;
-  transition: opacity 0.5s ease-in-out;
+  max-height: 50px;
+  padding: 10px;
+  transition: 0.5s ease-in-out;
 }
 .footer-img:hover {
   opacity: 70%;
@@ -131,16 +133,18 @@ a {
 
 .bio-container {
   margin: 0 auto;
-  padding-top: 20px;
-  width: 70%;
+  padding: 20px 50px;
   display: flex;
-  max-width: 768px;
 }
 
 .bio {
   width: 100%;
   line-height: 1.4;
 }
+
+.bio-headshot {
+  max-width: 400px;
+  }
 
 .bio h2 {
   padding-bottom: 12px;
