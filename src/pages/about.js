@@ -17,6 +17,7 @@ const About = () => {
                 placeholder="blurred"
                 formats={["auto", "webp", "avif"]}
               /></div>
+              <div className="bio-text">
             <h2>Dr. Courtney Cornick Skinner</h2>
             <p>
               <strong>Dr. Courtney Cornick Skinner</strong> is a licensed
@@ -92,7 +93,7 @@ const About = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div></div>
         </div>
         <div className="btn-wrapper">
           <Link to="/services" className="btn">

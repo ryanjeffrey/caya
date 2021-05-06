@@ -13,12 +13,13 @@ const Services = () => {
           <StaticImage
             src="../assets/images/smile.jpg"
             alt=""
+            layout="constrained"
             placeholder="blurred"
             formats={["auto", "webp", "avif"]}
           />
         </div>
+        <div className="services-wrapper">
         <AccordionMenu />
-      <div className="services-wrapper">
         <div className="btn-wrapper">
           <Link to="/contact" className="btn">
             Contact
