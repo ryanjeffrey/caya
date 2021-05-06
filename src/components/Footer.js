@@ -23,7 +23,7 @@ export default function Footer() {
             alt="therapy for black girls logo"
           />
         </a>
-        <footer>&copy; {new Date().getFullYear()} Caya Wellness LLC</footer>
+        <footer>&copy; {new Date().getFullYear()} CAYA Wellness LLC</footer>
       </div>
     )
 }
