@@ -46,7 +46,7 @@ const Story = () => {
         <p>
           All we ask is that you <em>come as you are.</em>
         </p>
-        <Link to="/about" className="btn">
+        <Link to="/about" className="btn" aria-label="bio">
           Learn More
         </Link>
       </div>
