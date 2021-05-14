@@ -10,22 +10,22 @@ const Services = () => {
   return (
     <Layout>
       <div className="smile">
-          <StaticImage
-            src="../assets/images/smile.jpg"
-            alt=""
-            layout="constrained"
-            placeholder="blurred"
-            formats={["auto", "webp", "avif"]}
-          />
-        </div>
-       <div className="services-wrapper"> 
+        <StaticImage
+          src="../assets/images/smile.jpg"
+          alt=""
+          layout="fullWidth"
+          placeholder="blurred"
+          formats={["auto", "webp", "avif"]}
+        />
+      </div>
+      <div className="services-wrapper">
         <AccordionMenu />
         <div className="btn-wrapper">
           <Link to="/contact" className="btn">
             Contact
           </Link>
         </div>
-        
+
         <span>
           <p className="disclaimer">
             <strong>Regarding Insurance: </strong>We are an out-of-network
