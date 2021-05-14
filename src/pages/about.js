@@ -18,24 +18,24 @@ const About = () => {
                 formats={["auto", "webp", "avif"]}
               /></div>
               <div className="bio-text">
-            <h2>Dr. Courtney Cornick Skinner</h2>
+            <h2>Dr. Courtney Cornick</h2>
             <p>
-              <strong>Dr. Courtney Cornick Skinner</strong> is a licensed
+              <strong>Dr. Courtney Cornick</strong> is a licensed
               psychologist in the states of Illinois, Wisconsin, Indiana, and
-              Florida. Dr. Skinner completed her PhD in Counseling Psychology at
+              Florida. Dr. Cornick completed her PhD in Counseling Psychology at
               the University of Iowa, followed by an APA-accredited internship
               at the Milwaukee VA Medical Center and an APA-accredited
               postdoctoral fellowship in medical rehabilitation psychology at
-              Hines VA Medical Center in the Chicagoland area. Dr. Skinner
+              Hines VA Medical Center in the Chicagoland area. She then
               received specialized training and instruction in health psychology
               and completed her doctoral dissertation on clinical hypnosis and
-              chronic pain. Dr. Skinner has experience providing mental health
+              chronic pain. Dr. Cornick has experience providing mental health
               services in private hospitals, Department of Veterans Affairs, and
               private practice.
             </p>
             <p>
-              Dr. Skinner has published research and conducted trainings in
-              various settings around the country. Dr. Skinner serves as a
+              Dr. Cornick has published research and conducted trainings in
+              various settings around the country. Dr. Cornick serves as a
               consultant related to hiring and retention of diverse staff,
               intergroup relations, improving employee awareness within the
               workplace, and best practices in psychological assessment via

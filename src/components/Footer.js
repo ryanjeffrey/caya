@@ -6,14 +6,14 @@ export default function Footer() {
     return (
       <div className="footer-wrapper">
         <a
-          href="https://www.psychologytoday.com/us"
+          href="https://www.psychologytoday.com/us/therapists/courtney-cornick-chula-vista-ca/859200"
           target="_blank"
           rel="noreferrer"
         >
           <img class="footer-img" src={pt} alt="psychology today logo" />
         </a>
         <a
-          href="https://therapyforblackgirls.com/"
+          href="https://providers.therapyforblackgirls.com/listing/dr-courtney-cornick/"
           target="_blank"
           rel="noreferrer"
         >

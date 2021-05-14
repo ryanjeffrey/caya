@@ -46,7 +46,7 @@ h5 {
   transition: 0.5s ease-in-out;
 }
 .footer-img:hover {
-  opacity: 70%;
+  opacity: .7;
 }
 
 a {
@@ -66,7 +66,7 @@ a {
   display: inline-block;
   border-radius: 3em;
   padding: 13px;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .btn:hover {
   background-color: #cd7672;
@@ -134,21 +134,25 @@ a {
 
 .bio-container {
   margin: 0 auto;
-  padding: 20px 50px;
+  padding: 10px 40px;
   display: flex;
 }
 
 .bio {
   width: 100%;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 .bio-headshot {
   max-width: 360px;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
   }
+
+.bio-headshot img {
+  border-radius: 15px;
+}
 
 .bio h2 {
   padding-bottom: 12px;
@@ -199,7 +203,7 @@ a {
   max-height: 90vh;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
   }
 
 .services-content {
@@ -212,7 +216,10 @@ a {
   padding: 12px;
 }
 
-
+.disclaimer {
+  padding: 10px;
+  line-height: 1.3;
+}
 
 
 /*#########*/
@@ -225,6 +232,7 @@ a {
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  line-height: 1.3;
 }
 
 .contact-section h2 {

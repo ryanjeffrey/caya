@@ -18,7 +18,7 @@ const Services = () => {
             formats={["auto", "webp", "avif"]}
           />
         </div>
-        <div className="services-wrapper">
+       <div className="services-wrapper"> 
         <AccordionMenu />
         <div className="btn-wrapper">
           <Link to="/contact" className="btn">
@@ -27,7 +27,7 @@ const Services = () => {
         </div>
         
         <span>
-          <p>
+          <p className="disclaimer">
             <strong>Regarding Insurance: </strong>We are an out-of-network
             provider and currently do not accept insurance. However, some
             insurance plans offer out-of-network coverage, which may provide
