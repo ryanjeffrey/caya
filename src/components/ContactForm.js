@@ -9,12 +9,26 @@ function ContactForm() {
           Wellness is the best fit for your present mental health needs.
         </p>
         <p>
-          Please do not include private/sensitive
-          information in your message. This form is to be used for scheduling purposes only.
+          Please do not include private/sensitive information in your message.
+          This form is to be used for scheduling purposes only.
         </p>
-        <form>
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div>
             <input type="text" placeholder="name" name="name" id="name" />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="email address"
+              name="email"
+              id="email"
+            />
           </div>
           <div>
             <input
@@ -41,11 +55,17 @@ function ContactForm() {
           <p>
             Please note: Contacting CAYA Wellness by phone or e-mail does not
             establish a professional, therapeutic, and/or client-therapist
-            relationship.</p>
-            <p> If you are experiencing a medical or mental health
-            emergency, please call 911.</p>
-            <p> If you or a loved one are experiencing a
-            mental health crisis, please call 1-800-273-8255.
+            relationship.
+          </p>
+          <p>
+            {" "}
+            If you are experiencing a medical or mental health emergency, please
+            call 911.
+          </p>
+          <p>
+            {" "}
+            If you or a loved one are experiencing a mental health crisis,
+            please call 1-800-273-8255.
           </p>
         </div>
       </div>

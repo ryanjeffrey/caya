@@ -233,6 +233,11 @@ a {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   line-height: 1.3;
+  padding-bottom: 0;
+}
+
+.contact-section form {
+  padding-top: 10px;
 }
 
 .contact-section h2 {
@@ -245,7 +250,9 @@ a {
 }
 
 input[type="text"],
-textarea {
+textarea,
+input[type="email"],
+input[type="number"] {
   background: #f5d8ae;
   border: none;
   padding: 1rem;

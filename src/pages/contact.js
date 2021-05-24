@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import ContactForm from "../components/ContactForm"
+import ContactNew from "../components/ContactNew"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Contact = () => {
@@ -12,7 +12,7 @@ const Contact = () => {
         placeholder="blurred"
         formats={["auto", "webp", "avif"]}
       />
-      <ContactForm />
+      <ContactNew />
     </Layout>
   )
 }
