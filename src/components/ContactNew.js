@@ -91,6 +91,8 @@ export default function Contact() {
             <textarea
               name="message"
               placeholder="when would you like to schedule your consultation?"
+              cols="30"
+              rows="4"
               onChange={handleChange}
             />
           </label>

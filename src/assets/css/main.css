@@ -302,3 +302,8 @@ span {
   font-family: 'Poppins', sans-serif;
 }
 
+.thank-you {
+  padding: 80px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+}
