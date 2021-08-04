@@ -24,7 +24,7 @@ function ContactForm() {
           </div>
           <div>
             <input
-              type="text"
+              type="email"
               placeholder="email address"
               name="email"
               id="email"
@@ -32,7 +32,7 @@ function ContactForm() {
           </div>
           <div>
             <input
-              type="text"
+              type="tel"
               placeholder="phone number"
               name="number"
               id="number"
