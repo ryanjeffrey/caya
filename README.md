@@ -1,1 +1,1 @@
-This is a static site I designed and built using GatsbyJS and Netlify.
+This is a static site I designed and built using ReactJS, GatsbyJS, and Netlify.
