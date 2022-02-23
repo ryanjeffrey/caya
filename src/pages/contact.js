@@ -7,9 +7,8 @@ const Contact = () => {
   return (
     <Layout>
       <StaticImage
-        src="../assets/images/calm.jpg"
-        alt=""
-        placeholder="blurred"
+        src="https://rscbucket.s3.us-east-2.amazonaws.com/caya/chair.jpg"
+        alt="woman in chair"
         formats={["auto", "webp", "avif"]}
       />
       <ContactNew />
