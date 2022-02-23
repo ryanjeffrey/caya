@@ -13,9 +13,7 @@ const Hero = () => {
         layout="fullWidth"
         // This is a presentational image, so the alt should be an empty string
         alt=""
-        src={
-          "../assets/images/couch.jpeg"
-        }
+        src={"https://rscbucket.s3.us-east-2.amazonaws.com/caya/couch.jpeg"}
         placeholder="blurred"
         formats={["auto", "webp", "avif"]}
       />
