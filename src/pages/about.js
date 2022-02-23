@@ -47,23 +47,15 @@ const About = () => {
               <h3>Areas of Specialization:</h3>
               <div className="areas-list">
                 <ul>
-                  <li>
-                    Health Psychology
-                    <ul>
-                      <li>Chronic Pain</li>
-                      <li>Chronic Medical Conditions</li>
-                      <li>Women's Health</li>
-                      <li>Behavioral Health</li>
-                      <li>Obesity &#38; Body Positive Psychotherapy</li>
-                    </ul>
-                  </li>
-                  <li>
-                    Disability
-                    <ul>
-                      <li>Multiple Sclerosis</li>
-                      <li>Spinal Cord Injury</li>
-                    </ul>
-                  </li>
+                  <li>Health Psychology</li>
+                  <li>Chronic Pain</li>
+                  <li>Chronic Medical Conditions</li>
+                  <li>Women's Health</li>
+                  <li>Behavioral Health</li>
+                  <li>Obesity &#38; Body Positive Psychotherapy</li>
+                  <li>Disability</li>
+                  <li>Multiple Sclerosis</li>
+                  <li>Spinal Cord Injury</li>
                   <li>Depression</li>
                   <li>Holistic Wellness</li>
                   <li>Anxiety</li>
@@ -75,23 +67,15 @@ const About = () => {
                   <li>Clinical Hypnosis</li>
                   <li>Mindfulness/Meditation</li>
                   <li>Coaching</li>
-                  <li>
-                    Assessment
-                    <ul>
-                      <li>Organ Transplant</li>
-                      <li>Bone Marrow and Stem Cell Transplant</li>
-                      <li>
-                        Neuromodulation
-                        <ul>
-                          <li>Spinal Cord Stimulator</li>
-                          <li>Intrathecal Pain Pump</li>
-                          <li>Peripheral Nerve Stimulator</li>
-                        </ul>
-                      </li>
-                      <li>Bariatric Surgery</li>
-                      <li>Cosmetic Surgery</li>
-                    </ul>
-                  </li>
+                  <li>Assessment</li>
+                  <li>Organ Transplant</li>
+                  <li>Bone Marrow and Stem Cell Transplant</li>
+                  <li>Neuromodulation</li>
+                  <li>Spinal Cord Stimulator</li>
+                  <li>Intrathecal Pain Pump</li>
+                  <li>Peripheral Nerve Stimulator</li>
+                  <li>Bariatric Surgery</li>
+                  <li>Cosmetic Surgery</li>
                 </ul>
               </div>
             </div>

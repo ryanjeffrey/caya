@@ -37,6 +37,10 @@ h5 {
     font-size: 1.4em;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 footer {
   padding-bottom: 10px;
 }
@@ -206,29 +210,24 @@ a {
 }
 
 .areas {
-  padding: 10px;
   
 }
 
 .areas-list {
-  max-width: 768px;
+  margin: 0 auto;
+}
+.areas-list li {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: bold;
 }
 
 .btn-wrapper {
   padding-bottom: 30px;
 }
 
-@media only screen and (min-width: 768px) {
-  .areas-list {
-    padding-left: 100px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .areas-list {
-    padding-left: 250px;
-  }
-}
 
 
 /*#########*/
