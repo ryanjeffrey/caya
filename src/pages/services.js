@@ -11,10 +11,9 @@ const Services = () => {
     <Layout>
       <div className="smile">
         <StaticImage
-          src="../assets/images/smile.jpg"
+          src="https://rscbucket.s3.us-east-2.amazonaws.com/caya/yellow-wrap.jpg"
           alt=""
           layout="fullWidth"
-          placeholder="blurred"
           formats={["auto", "webp", "avif"]}
         />
       </div>

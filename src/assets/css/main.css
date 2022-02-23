@@ -37,10 +37,6 @@ h5 {
     font-size: 1.4em;
 }
 
-ul {
-  padding-inline-start: 0;
-}
-
 footer {
   padding-bottom: 10px;
 }
@@ -209,8 +205,8 @@ a {
   line-height: 2;
 }
 
-.areas {
-  
+.areas ul {
+  padding-inline-start: 0;
 }
 
 .areas-list {
@@ -221,7 +217,6 @@ a {
   list-style: none;
   padding: 8px 0;
   text-align: center;
-  font-weight: bold;
 }
 
 .btn-wrapper {
