@@ -1,1 +1,3 @@
-This is a static site I designed and engineered using ReactJS, GatsbyJS, and Netlify.
+We partnered with CAYA’s Founder + CEO, Courtney Cornick, PhD to help guide the brand towards a future of virtual private practice by crafting a custom design system that spans the web experience, custom client email feature, and branding. We wanted to create a welcoming space for Black women that brings the brand’s core value of “Come As You Are” to the center of their identity. By doing so, the new branding design lays a strong strategic and visual foundation for continued expansion of clients and business growth. The tools we used to build this project include React, Gatsby, and Netlify. Our work with CAYA was featured on POPSUGAR and verywell.
+
+![caya-laptop](https://user-images.githubusercontent.com/73365865/186226522-4cae9f8e-de2b-48c1-a23e-12a2ba324e46.png)
